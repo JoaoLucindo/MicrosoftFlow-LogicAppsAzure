@@ -5,7 +5,7 @@
 ## Portal Microsoft Flow
 ![Portal Microsoft Flow](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/1.png)
 ## Create from blank
-![Create from blank](https://githu.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/2.png)
+![Create from blank](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/2.png)
 ## Request/Response
 ![Request/Response](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/3.png)
 ## Method GET
