@@ -87,7 +87,7 @@ Faça o download da [IDE](https://www.arduino.cc/en/Main/Software), e a instale.
 
 ###### 2) Inserção das Bibliotecas
 
-Faça o Download do [arquivo Arduino-Master](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/Arduino-master.zip). E insira a biblioteca <ESP8266WiFi.h>.
+Faça o Download do [arquivo Arduino-Master](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/Arduino-master.zip). E insira a biblioteca ESP8266WiFi.
 
 ![library](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/11.png)
 
@@ -95,10 +95,10 @@ Faça o Download do [arquivo Arduino-Master](https://github.com/JoaoLucindo/Micr
 
 Faça o [download do código](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/MicrosoftFlow_IoT_JoaoLucindo.ino) completo. Substitua os campos:
 
-* <SSID> pelo nome de sua rede Wifi
-* <PASSWORD> pela senha da rede
-* <HOST> pelos strings da HTTP GET URL antes de 443, obtida no item #8 (no caso: `` https://prod-32.westus.logic.azure.com `` )
-* <URL>  pelos strings da HTTP GET URL após 443, obtida no item #8 (no caso ``/workflows/<ID>/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=<ID>``)
+* SSID pelo nome de sua rede Wifi
+* PASSWORD pela senha da rede
+* HOST pelos strings da HTTP GET URL antes de 443, obtida no item #8 (no caso: `` https://prod-32.westus.logic.azure.com `` )
+* URL  pelos strings da HTTP GET URL após 443, obtida no item #8 (no caso ``/workflows/<ID>/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=<ID>``)
 
 Dessa forma, o código final seria:
 
