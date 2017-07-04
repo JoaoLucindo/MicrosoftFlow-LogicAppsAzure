@@ -67,7 +67,14 @@ Após a criação do Fluxo, reserve a HTTP GET URL gerada. Ela será na forma:
 
 Preparação do Hardware 
 ------------
+## 1) Montagem do Circuito
 
 Monte o circuito, conforme a figura abaixo e alimente o módulo com o cabo USB mini.
 
 ![Circuito](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/MicrosoftFlow-LogicApps-Button-Frittzing%20Project_bb.png)
+
+Implementação do Software 
+------------
+A placa de desenvolvimento NodeMCU pode ser programa em LUA, ou em C++ utilizando a IDE Arduino. Nesse tutorial será utilizado a IDE Arduino.
+## 1) Preparação da IDE Arduino
+
