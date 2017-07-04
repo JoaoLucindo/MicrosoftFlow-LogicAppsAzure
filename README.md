@@ -74,6 +74,7 @@ Monte o circuito, conforme a figura abaixo e alimente o módulo com o cabo USB m
 
 Implementação do Software 
 ------------
+
 A placa de desenvolvimento NodeMCU pode ser programa em LUA, ou em C++ utilizando a IDE Arduino. Nesse tutorial será utilizado a IDE Arduino.
 
 ## Preparação da IDE Arduino 
@@ -101,7 +102,8 @@ Faça o download do código completo. Substitua os campos:
 
 Dessa forma, o código final seria:
 
-``#include <ESP8266WiFi.h>
+```
+#include <ESP8266WiFi.h>
 
 
 
@@ -198,5 +200,6 @@ void loop() {
     setup(); 
     }
   
-}``
+}
+```
 
