@@ -101,9 +101,7 @@ Faça o download do código completo. Substitua os campos:
 
 Dessa forma, o código final seria:
 
-`` 
-
-#include <ESP8266WiFi.h>
+``#include <ESP8266WiFi.h>
 
 
 
@@ -200,7 +198,5 @@ void loop() {
     setup(); 
     }
   
-}
-
-``
+}``
 
