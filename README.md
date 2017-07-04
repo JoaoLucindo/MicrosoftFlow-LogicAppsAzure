@@ -63,3 +63,7 @@ Após a criação do Fluxo, reserve a HTTP GET URL gerada. Ela será na forma:
 ``https://prod-32.westus.logic.azure.com:443/workflows/<ID>/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=<ID>``
 
 ![HTTP GET URL](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/8.png)
+
+
+Preparação do Hardware 
+------------
