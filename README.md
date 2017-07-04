@@ -160,14 +160,7 @@ Serial.println("");
 }
 
 String MicrosoftFlow() {
-  String title = "";
-  String headers = "";
-  String body = "";
-  bool finishedHeaders = false;
-  bool currentLineIsBlank = true;
-  bool gotResponse = false;
-  long now;
-
+ 
   char host[] = "prod-37.westus.logic.azure.com";
 
   if (client.connect(host, 443)) {
