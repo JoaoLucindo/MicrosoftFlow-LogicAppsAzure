@@ -87,7 +87,7 @@ Faça o download da [IDE](https://www.arduino.cc/en/Main/Software), e a instale.
 
 ###### 2) Inserção das Bibliotecas
 
-Faça o Download do [arquivo ESP8266wifi-master.zip](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/ESP8266wifi-master.zip). Indique o caminho do arquivo recém baixado e clique em "Open"
+Faça o Download do [arquivo Arduino-Master](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/Arduino-master.zip). E insira a biblioteca <ESP8266WiFi.h>.
 
 ![library](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/11.png)
 
