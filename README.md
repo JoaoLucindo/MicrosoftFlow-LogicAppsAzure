@@ -5,7 +5,7 @@
 
 Preparação do Ambiente Microsoft Flow 
 --------
-## 1-Portal Microsoft Flow
+## 1) Portal Microsoft Flow
 ![Portal Microsoft Flow](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/1.png)
 ## 2-Create from blank
 ![Create from blank](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/2.png)
