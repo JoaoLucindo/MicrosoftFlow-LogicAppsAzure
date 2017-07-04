@@ -39,7 +39,6 @@ Preencha o campo "Flow name" como o nome que você deseja dar para o fluxo. Sele
 ## 4) Method GET
 
 Em "Advance Options" escolha o Method GET.
-
 ![Method GET](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/4.png)
 ## 5) Adicione uma nova ação
 
@@ -93,5 +92,10 @@ Faça o Download do [arquivo ESP8266wifi-master.zip](https://github.com/JoaoLuci
 
 ## Software 
 
-Faça o download do código completo. 
+Faça o download do código completo. Substitua os campos:
+
+* <SSID> pelo nome de sua rede Wifi
+* <PASSWORD> pela senha da rede
+* <HOST> pelos strings antes de 443, obtida no item #8 [no caso: `` https://prod-32.westus.logic.azure.com `` ]
+* <URL>  pelos strings após 443, obtida no item #8 [no caso ``/workflows/<ID>/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=<ID>``]
 
