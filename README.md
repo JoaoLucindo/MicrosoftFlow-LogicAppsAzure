@@ -3,7 +3,7 @@
 ## Automação de Processos com Microsoft Flow / Logic Apps Azure utilizando NodeMCU e Arduino IDE
 O objetivo deste documento é guiar o desenvolvimento de um botão IoT integrado com a plataforma Microsoft Flow ou o serviço Logic Apps - Microsoft Azure. 
 
-Nesse tutorial será desenvolvido um botão IoT aplicado ao cenário de manutenção de uma máquina de café, mas pode ser facilmente adaptado para 
+Nesse tutorial será desenvolvido um botão IoT aplicado ao cenário de manutenção de uma máquina de café utilizando o Microsoft Flow, todavia pode-se facilmente adaptadar para qualquer outro cenário ou aplicação.
 
 ## Itens Necessários
 
@@ -20,7 +20,11 @@ Nesse tutorial será desenvolvido um botão IoT aplicado ao cenário de manuten�
 ------------
 Preparação do Ambiente Microsoft Flow 
 ------------
+
 ## 1) Portal Microsoft Flow
+
+Acesse [Microsoft Flow](flow.microsoft.com).
+
 ![Portal Microsoft Flow](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/1.png)
 ## 2) Create from blank
 ![Create from blank](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/2.png)
