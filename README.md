@@ -154,7 +154,9 @@ void setup() {
     Serial.print(".");
     delay(500);
   }
-  Serial.println("");
+
+
+Serial.println("");
   Serial.println("WiFi connected");
   Serial.println("IP address: ");
   IPAddress ip = WiFi.localIP();
@@ -204,6 +206,10 @@ void loop() {
 ```
 
 Após essas modificações no arquivo .ino baixado, basta compilar e transferir o código para a placa de Desenvolvimento NodeMCU. O resultado, após apertar o push button é o email conforme a imagem a seguir:
+
+![email](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/12.png)
+
+
 
 
 
