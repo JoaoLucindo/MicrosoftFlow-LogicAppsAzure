@@ -85,6 +85,10 @@ Faça o download da [IDE](https://www.arduino.cc/en/Main/Software), e a instale.
 
 ![NodeMCU_IDE](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/9.png)
 
-###### 1.2) Inserção das 
+###### 1.2) Inserção das Bibliotecas
 
-Faça o Download do [arquivo ESP8266wifi-master.zip](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/ESP8266wifi-master.zip)
+Faça o Download do [arquivo ESP8266wifi-master.zip](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/ESP8266wifi-master.zip). Indique o caminho do arquivo recém baixado e clique em "Open"
+
+![library](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/11.png)
+
+
