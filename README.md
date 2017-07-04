@@ -23,7 +23,7 @@ Preparação do Ambiente Microsoft Flow
 
 ## 1) Portal Microsoft Flow
 
-Acesse [Microsoft Flow](flow.microsoft.com).
+Acesse [Microsoft Flow](flow.microsoft.com), faça o Login e clique em "My Flows"".
 
 ![Portal Microsoft Flow](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/1.png)
 ## 2) Create from blank
