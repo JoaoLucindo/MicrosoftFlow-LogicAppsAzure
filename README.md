@@ -77,18 +77,21 @@ Implementação do Software
 ------------
 A placa de desenvolvimento NodeMCU pode ser programa em LUA, ou em C++ utilizando a IDE Arduino. Nesse tutorial será utilizado a IDE Arduino.
 
-## 1) Preparação da IDE Arduino 
+## Preparação da IDE Arduino 
 
-###### 1.1) Package ESP8266
+###### 1) Package ESP8266
 
 Faça o download da [IDE](https://www.arduino.cc/en/Main/Software), e a instale. Abra a IDE e em File -> Preferences, no campo "Additional Boards Manager URLs" insira a URL ``http://arduino.esp8266.com/stable/package_esp8266com_index.json`` e clique em OK. Após esses passos será iniciado o Download dos itens necessários para a programação do NodeMCU. Quando finilazir o download, reinicie a IDE.
 
 ![NodeMCU_IDE](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/9.png)
 
-###### 1.2) Inserção das Bibliotecas
+###### 2) Inserção das Bibliotecas
 
 Faça o Download do [arquivo ESP8266wifi-master.zip](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/ESP8266wifi-master.zip). Indique o caminho do arquivo recém baixado e clique em "Open"
 
 ![library](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/11.png)
 
+## Software 
+
+Faça o download do código completo. 
 
