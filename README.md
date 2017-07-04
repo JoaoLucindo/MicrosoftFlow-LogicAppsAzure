@@ -67,3 +67,7 @@ Após a criação do Fluxo, reserve a HTTP GET URL gerada. Ela será na forma:
 
 Preparação do Hardware 
 ------------
+
+Monte o circuito, conforme a figura abaixo e alimente o módulo com o cabo USB mini.
+
+![Circuito](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/MicrosoftFlow-LogicApps-Button-Frittzing%20Project_bb.png)
