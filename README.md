@@ -68,20 +68,20 @@ Preparação do Hardware
 ------------
 ## 1) Montagem do Circuito
 
-Monte o circuito, conforme a figura abaixo e alimente o módulo com o cabo USB mini.
+Monte o circuito, conforme a figura abaixo.
 
 ![Circuito](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/MicrosoftFlow-LogicApps-Button-Frittzing%20Project_bb.png)
 
 Implementação do Software 
 ------------
 
-A placa de desenvolvimento NodeMCU pode ser programa em LUA, ou em C++ utilizando a IDE Arduino. Nesse tutorial será utilizado a IDE Arduino.
+A placa de desenvolvimento NodeMCU pode ser programa em Lua, ou em C++ utilizando a IDE Arduino. Nesse tutorial será utilizado a IDE Arduino.
 
 ## Preparação da IDE Arduino 
 
 ###### 1) Package ESP8266
 
-Faça o download da [IDE](https://www.arduino.cc/en/Main/Software), e a instale. Abra a IDE e em File -> Preferences, no campo "Additional Boards Manager URLs" insira a URL ``http://arduino.esp8266.com/stable/package_esp8266com_index.json`` e clique em OK. Após esses passos será iniciado o Download dos itens necessários para a programação do NodeMCU. Quando finilazir o download, reinicie a IDE.
+Faça o download da [IDE](https://www.arduino.cc/en/Main/Software), e a instale. Abra a IDE e em File -> Preferences, no campo "Additional Boards Manager URLs" insira a URL ``http://arduino.esp8266.com/stable/package_esp8266com_index.json`` e clique em OK. Após esses passos será iniciado o Download dos itens necessários para a programação do NodeMCU. Quando finalizar o download, reinicie a IDE.
 
 ![NodeMCU_IDE](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/9.png)
 
