@@ -18,7 +18,7 @@ In this tutorial it will be developed an IoT button applied to the scenario of m
 * Micro USB cable
 
 ------------
-Setup Environment Microsoft Flow
+Setup Microsoft Flow  Environment 
 ------------
 
 ## 1) Microsoft Flow portal
@@ -38,16 +38,16 @@ Preencha o campo "Flow name" como o nome que você deseja dar para o fluxo. Sele
 ![Request/Response](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/3.png)
 ## 4) Method GET
 
-Em "Advance Options" escolha o Method GET.
+In "Advance Options" choose  "Method GET".
 ![Method GET](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/4.png)
 ## 5) Adicione uma nova ação
 
-Clique em "Add an action" para adicionar uma ação a ser executada logo após a sensibilização do Trigger "Request/Response". 
+Click on "Add an action" to add a new action. 
 
 ![Adicione uma nova ação](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/5.png)
 ## 6) Send an email
 
-Escolha a ação "Office 365 Outlook - Send an email".
+Choose the action "Office 365 Outlook - Send an email".
 
 ![Send an email](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/6.png)
 ## 7) Create Flow
