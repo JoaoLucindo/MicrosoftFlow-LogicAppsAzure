@@ -28,7 +28,7 @@ Acesse [Microsoft Flow](flow.microsoft.com), faça o Login e clique em "My Flows
 ![Portal Microsoft Flow](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/1.png)
 ## 2) Create from blank
 
-Click on "Create from blank" to create a new workflow.
+Click "Create from blank" to create a new workflow.
 
 ![Create from blank](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/2.png)
 ## 3) Request/Response
@@ -42,7 +42,7 @@ In "Advance Options" choose  "Method GET".
 ![Method GET](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/4.png)
 ## 5) Adicione uma nova ação
 
-Click on "Add an action" to add a new action. 
+Click "Add an action" to add a new action. 
 
 ![Adicione uma nova ação](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/5.png)
 ## 6) Send an email
@@ -52,12 +52,12 @@ Choose the action "Office 365 Outlook - Send an email".
 ![Send an email](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/6.png)
 ## 7) Create Flow
 
-Configure o email como desejar e clique em "Create Flow".
+Complete all required fields (as you wish), and then click "Create Flow".
 
 ![Create Flow](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/7.png)
 ## 8) HTTP GET URL
 
-Após a criação do Fluxo, reserve a HTTP GET URL gerada. Ela será na forma:
+Then copy and save the HTTP GET URL. Ela será na forma:
 
 ``https://prod-32.westus.logic.azure.com:443/workflows/<ID>/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=<ID>``
 
