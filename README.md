@@ -40,7 +40,7 @@ Preencha o campo "Flow name" como o nome que você deseja dar para o fluxo. Sele
 
 In "Advance Options" choose  "Method GET".
 ![Method GET](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/4.png)
-## 5) Adicione uma nova ação
+## 5) Add an action
 
 Click "Add an action" to add a new action. 
 
