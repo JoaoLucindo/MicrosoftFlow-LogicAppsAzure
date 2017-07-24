@@ -81,7 +81,7 @@ The ESP8266 NodeMcu comes with a firmware that lets you program the chip with th
 
 ###### 1) Package ESP8266
 
-Download the [IDE](https://www.arduino.cc/en/Main/Software), and install. Abra a IDE e em File -> Preferences, no campo "Additional Boards Manager URLs" insira a URL ``http://arduino.esp8266.com/stable/package_esp8266com_index.json`` e clique em OK. Após esses passos será iniciado o Download dos itens necessários para a programação do NodeMCU. Quando finalizar o download, reinicie a IDE.
+Download the [IDE](https://www.arduino.cc/en/Main/Software), and install. Open the IDE; Choose File -> Preferences, in "Additional Boards Manager URLs" insert the URL ``http://arduino.esp8266.com/stable/package_esp8266com_index.json`` and than click "OK". Após esses passos será iniciado o Download dos itens necessários para a programação do NodeMCU. Quando finalizar o download, reinicie a IDE.
 
 ![NodeMCU_IDE](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/9.png)
 
