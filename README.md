@@ -81,19 +81,21 @@ The ESP8266 NodeMcu comes with a firmware that lets you program the chip with th
 
 ###### 1) Package ESP8266
 
-Download the [IDE](https://www.arduino.cc/en/Main/Software), and install. Open the IDE; Choose File -> Preferences, in "Additional Boards Manager URLs" insert the URL ``http://arduino.esp8266.com/stable/package_esp8266com_index.json`` and than click "OK". Após esses passos será iniciado o Download dos itens necessários para a programação do NodeMCU. Quando finalizar o download, reinicie a IDE.
+Download the [IDE](https://www.arduino.cc/en/Main/Software), and install. Open the IDE; Choose File -> Preferences, in "Additional Boards Manager URLs" insert the URL ``http://arduino.esp8266.com/stable/package_esp8266com_index.json`` and than click "OK". After this steps your download will begin shortly and then restart the IDE.
 
 ![NodeMCU_IDE](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/9.png)
 
 ###### 2) Inserção das Bibliotecas
 
-Faça o Download do [arquivo Arduino-Master](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/Arduino-master.zip). E insira a biblioteca ESP8266WiFi.
+Download the [file Arduino-Master](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/Arduino-master.zip). Insert the library ESP8266WiFi.
 
 ![library](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/11.png)
 
 ## Software 
 
-Faça o [download do código](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/MicrosoftFlow_IoT_JoaoLucindo.ino) completo. Substitua os campos:
+[Download the code](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/MicrosoftFlow_IoT_JoaoLucindo.ino) . 
+
+Substitua os campos:
 
 * SSID pelo nome de sua rede Wifi
 * PASSWORD pela senha da rede
