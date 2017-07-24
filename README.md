@@ -23,7 +23,7 @@ Setup Microsoft Flow  Environment
 
 ## 1) Microsoft Flow portal
 
-Acesse [Microsoft Flow](flow.microsoft.com), faça o Login e clique em "My Flows".
+Access [Microsoft Flow](flow.microsoft.com), Login and click "My Flows".
 
 ![Portal Microsoft Flow](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/1.png)
 ## 2) Create from blank
@@ -33,7 +33,7 @@ Click "Create from blank" to create a new workflow.
 ![Create from blank](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/2.png)
 ## 3) Request/Response
 
-Preencha o campo "Flow name" como o nome que você deseja dar para o fluxo. Selecione o Trigger "Request/Response".
+Give a name to your Flow. Select the Trigger "Request/Response".
 
 ![Request/Response](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/3.png)
 ## 4) Method GET
