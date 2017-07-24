@@ -134,7 +134,7 @@ void setup() {
 
   pinMode(inPin, INPUT);      // sets the digital pin 1 as input
 
-  Serial.begin(115200);
+   Serial.begin(115200);
 
   // Set WiFi to station mode and disconnect from an AP if it was Previously
   // connected
@@ -194,7 +194,7 @@ void loop() {
 }
 ```
 
-Now you can compile and upload the code. You can see the result in the picture below.
+Now you can compile and upload the code. You can see the result (after press the push button) in the picture below.
 
 ![email](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/12.png)
 
