@@ -14,7 +14,7 @@ In this tutorial it will be developed an IoT button applied to the scenario of m
 * 1 x 330 Ω resistor
 * 1 x 1M Ω resistor
 * Jumpers
-* Protoboard
+* Breadboard
 * Micro USB cable
 
 ------------
