@@ -57,31 +57,31 @@ Complete all required fields (as you wish), and then click "Create Flow".
 ![Create Flow](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/7.png)
 ## 8) HTTP GET URL
 
-Then copy and save the HTTP GET URL. Ela será na forma:
+Then copy and save the HTTP GET URL:
 
 ``https://prod-32.westus.logic.azure.com:443/workflows/<ID>/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=<ID>``
 
 ![HTTP GET URL](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/8.png)
 
 
-Preparação do Hardware 
+Hardware Setup 
 ------------
-## 1) Montagem do Circuito
+## 1) Building a Circuit on Breadboard
 
-Monte o circuito, conforme a figura abaixo.
+Build the circuit like the one shown below.
 
 ![Circuito](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/MicrosoftFlow-LogicApps-Button-Frittzing%20Project_bb.png)
 
-Implementação do Software 
+Software 
 ------------
 
-A placa de desenvolvimento NodeMCU pode ser programa em Lua, ou em C++ utilizando a IDE Arduino. Nesse tutorial será utilizado a IDE Arduino.
+The ESP8266 NodeMcu comes with a firmware that lets you program the chip with the Lua scripting language. But if you are already familiar with the Arduino way of doing things, you can also use the Arduino IDE to progam the ESP. In this tutorial we'll use the Arduino IDE. 
 
-## Preparação da IDE Arduino 
+## IDE Arduino setup 
 
 ###### 1) Package ESP8266
 
-Faça o download da [IDE](https://www.arduino.cc/en/Main/Software), e a instale. Abra a IDE e em File -> Preferences, no campo "Additional Boards Manager URLs" insira a URL ``http://arduino.esp8266.com/stable/package_esp8266com_index.json`` e clique em OK. Após esses passos será iniciado o Download dos itens necessários para a programação do NodeMCU. Quando finalizar o download, reinicie a IDE.
+Download the [IDE](https://www.arduino.cc/en/Main/Software), and install. Abra a IDE e em File -> Preferences, no campo "Additional Boards Manager URLs" insira a URL ``http://arduino.esp8266.com/stable/package_esp8266com_index.json`` e clique em OK. Após esses passos será iniciado o Download dos itens necessários para a programação do NodeMCU. Quando finalizar o download, reinicie a IDE.
 
 ![NodeMCU_IDE](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/9.png)
 
