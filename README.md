@@ -85,9 +85,9 @@ Download the [IDE](https://www.arduino.cc/en/Main/Software), and install. Open t
 
 ![NodeMCU_IDE](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/9.png)
 
-###### 2) Inserção das Bibliotecas
+###### 2) Add libraries
 
-Download the [file Arduino-Master](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/Arduino-master.zip). Insert the library ESP8266WiFi.
+Download the [file Arduino-Master](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/Arduino-master.zip). Add the library ESP8266WiFi.
 
 ![library](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/11.png)
 
@@ -95,15 +95,14 @@ Download the [file Arduino-Master](https://github.com/JoaoLucindo/MicrosoftFlow-
 
 [Download the code](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/MicrosoftFlow_IoT_JoaoLucindo.ino) . 
 
-Substitua os campos:
+Replace the values:
 
-* SSID pelo nome de sua rede Wifi
-* PASSWORD pela senha da rede
-* HOST pelos strings da HTTP GET URL antes de 443, obtida no item #8 (no caso: `` https://prod-32.westus.logic.azure.com `` )
-* URL  pelos strings da HTTP GET URL após 443, obtida no item #8 (no caso ``/workflows/<ID>/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=<ID>``)
+* SSID by your wireless network name
+* PASSWORD by your wireless network password
+* HOST by the strings of the HTTP GET URL before 443 (in this case: `` https://prod-32.westus.logic.azure.com `` )
+* URL  by the strings of the HTTP GET URL after 443 (in this case ``/workflows/<ID>/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=<ID>``)
 
-Dessa forma, o código final seria:
-
+In this way, the final code would be:
 ```
 #include <ESP8266WiFi.h>
 
