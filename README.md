@@ -194,7 +194,7 @@ void loop() {
 }
 ```
 
-Após essas modificações no arquivo .ino baixado, basta compilar e transferir o código para a placa de Desenvolvimento NodeMCU. O resultado, após apertar o push button é o email conforme a imagem a seguir:
+Now you can compile and upload the code. You can see the result in the picture below.
 
 ![email](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/12.png)
 
