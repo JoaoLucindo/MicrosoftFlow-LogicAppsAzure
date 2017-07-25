@@ -1,4 +1,4 @@
-# Push Button: MicrosoftFlow-LogicAppsAzure
+ # Push Button: MicrosoftFlow-LogicAppsAzure
 
 ## Process automation with Microsoft Flow / Logic Apps Azure using NodeMCU and Arduino IDE
 The purpose of this document is to guide the development of a IoT button integrated with Microsoft Flow platform or Logic Apps - Microsoft Azure.
@@ -23,7 +23,7 @@ Setup Microsoft Flow  Environment
 
 ## 1) Microsoft Flow portal
 
-Access [Microsoft Flow](flow.microsoft.com), Login and click "My Flows".
+Access [Microsoft Flow](flow.microsoft.com), Log in and click "My Flows".
 
 ![Portal Microsoft Flow](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/1.png)
 ## 2) Create from blank
@@ -38,7 +38,7 @@ Give a name to your Flow. Select the Trigger "Request/Response".
 ![Request/Response](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/3.png)
 ## 4) Method GET
 
-In "Advance Options" choose  "Method GET".
+In "Advanced Options", choose  "Method GET".
 ![Method GET](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/4.png)
 ## 5) Add an action
 
@@ -81,7 +81,7 @@ The ESP8266 NodeMcu comes with a firmware that lets you program the chip with th
 
 ###### 1) Package ESP8266
 
-Download the [IDE](https://www.arduino.cc/en/Main/Software), and install. Open the IDE; Choose File -> Preferences, in "Additional Boards Manager URLs" insert the URL ``http://arduino.esp8266.com/stable/package_esp8266com_index.json`` and than click "OK". After this steps your download will begin shortly and then restart the IDE.
+Download the [IDE](https://www.arduino.cc/en/Main/Software), and install it. Open the IDE; Choose File -> Preferences, in "Additional Boards Manager URLs" insert the URL ``http://arduino.esp8266.com/stable/package_esp8266com_index.json`` and than click "OK". After this steps, your download will start automatically. Once it is finished, restart the IDE.
 
 ![NodeMCU_IDE](https://github.com/JoaoLucindo/MicrosoftFlow-LogicAppsAzure/blob/master/9.png)
 
@@ -102,7 +102,7 @@ Replace the values:
 * HOST by the strings of the HTTP GET URL before 443 (in this case: `` https://prod-32.westus.logic.azure.com `` )
 * URL  by the strings of the HTTP GET URL after 443 (in this case ``/workflows/<ID>/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=<ID>``)
 
-In this way, the final code would be:
+By doing that, the final code will be:
 ```
 #include <ESP8266WiFi.h>
 
